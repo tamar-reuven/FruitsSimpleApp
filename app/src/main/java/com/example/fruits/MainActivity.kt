@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity(), OnFruitClickListener {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             val api = retrofit.create(RetrofitService:: class.java)
+            //get the fruits, put it in the right model and deal with the response
             api.getFruitsList().enqueue(object : Callback<FruitList>{
 
                 override fun onResponse(call: Call<FruitList>, response: Response<FruitList>) {

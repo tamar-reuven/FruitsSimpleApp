@@ -19,7 +19,7 @@ Matrix Mobile Android Exercise
     Notes:
         1. In case the BASE_URL is invalid, a toast will pop up
            (quick check- delete the last "/" and run the app)
-        2. I didn't write any comments because I personally believe
+        2. I didn't write comments because I personally believe
            that if your code is clear enough, There is no need.
            In addition, comments need to be updated every time you change the code.
 
