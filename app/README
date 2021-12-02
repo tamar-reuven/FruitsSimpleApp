@@ -1,0 +1,27 @@
+Matrix Mobile Android Exercise
+
+    Description:
+        1. Home screen - Fruits list (title, image)
+        2. Details screen - a fruit's details (image, title, description, price)
+
+    Classes:
+        1. models:
+               - Fruit
+               - FruitList (api returns a Json object that has 2 field: fruits list, error)
+        2. interfaces:
+                - OnFruitClickListener (click on each item navigates to its details)
+                - RetrofitService (defines my GET request)
+        3. adapters:
+                - FruitRecyclerAdapter
+        4. Details (responsible for details screen)
+        5. MainActivity
+
+    Notes:
+        1. In case the BASE_URL is invalid, a toast will pop up
+           (quick check- delete the last "/" and run the app)
+        2. I didn't write any comments because I personally believe
+           that if your code is clear enough, There is no need.
+           In addition, comments need to be updated every time you change the code.
+
+    Constraints:
+        1. Works only on Android os
